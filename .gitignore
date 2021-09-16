@@ -1,0 +1,5 @@
+jabari.sublime*
+vagrant/.vagrant/*
+ubuntu-bionic*
+vagrant/Vagrantfile
+www/node/node_modules
