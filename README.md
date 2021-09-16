@@ -69,7 +69,7 @@ Run the Sample Application:
 
 ```
 cd /var/www/node
-npm install --no-bin-links
+npm install
 node sample-node-app.js
 ```
 
