@@ -23,11 +23,25 @@ Sometimes it seems to have built the box, but hasn't set up ports and sharing ri
 vagrant up
 ```
 
-Then if it gets where it needs to go (Windows 10 has been finicky!), you can do this to enter your box's command line:
+Then if it gets where it needs to go (Windows 10 has been finicky!), you can do this from within your 'vagrant' folder (where Vagrantfile is located) to enter your box's command line...
 
 ```
 vagrant ssh
 ```
+
+... and this to suspend or halt it
+
+```
+vagrant suspend
+vagrant halt
+```
+
+... and this to bring it up again if it's ever down:
+
+```
+vagrant up
+```
+
 
 Once it says you're in, hopefully you'll be able to do the following:
 
