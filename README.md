@@ -51,8 +51,8 @@ sudo a2enmod rewrite
 sudo a2enmod cgi
 sudo service apache2 restart
 ```
-In your desktop browser, visit http://localhost:8880
-(Port 20080 maps to Port 20080 on our virtual box.)
+In your desktop browser, visit http://localhost:20080
+(Port 20080 maps to Port 80 on our virtual box.)
 
 ### Install NPM and Node
 
@@ -91,3 +91,18 @@ sudo apt-get install -y python3-pip python3-dev
 sudo apt install -y python3-mysqldb
 sudo service apache2 restart
 ```
+
+
+## Problem Points
+
+Some computers require that you enabel virtualization in the BIOS. There are any number of resources online that you can Google to help you if so. (I don't recall having to on my latest work machine.)
+
+Sometimes you'll run into a problem creating a machine if some old machine files weren't deleted properly. You may have to go into "C:\Users\USERNAME\VirtualBox VMs" and manually delete that.
+
+Sometimes THAT won't be possible because the VM is still running in the background. Hit Ctrl+Alt+Delete to open up Task Manager and stop tasks like VirtualBox Manager and VirtualBox Headless.
+
+Sometimes boxes aren't cleanly deleted from VirtualBox and you'll see the listed in the VirtualBox interface. Stop (if needed) and Remove them (deleting all files) to clean them out. 
+
+Sometimes in an unclean destruction of a VB, the 'box' folder will linger in the folder. Once you've stopped the processes and deleted the VB and what not, you should be able to just delete that box folder to start over.
+
+*Any number of other things can happen, too. Honestly, this stuff is super useful and INCREDIBLY frustrating and shakily constructed, all at once.*
