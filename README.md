@@ -1,4 +1,8 @@
 
+# Vagrant Tools
+
+These tools and instructions provide some very basic resources for getting an Ubuntu (Bionic 64bit) Linux Box up and Running in VirtualBox using Vagrant. It also lists a few problem points I've encountered along the way (in Windows). I've had an easier time using it consistently in a Linux host, but my work computer is a Windows machine, so... well... here we are.
+
 ## Installation of the Box Itself:
 
 Open up a cmd line:
@@ -91,20 +95,6 @@ In your desktop browser, visit http://localhost:13000/
 (Port 13000 maps to Port 3000 on our virtual box.)
 
 
-### Install Python
-
-```
-sudo apt-get install -y libmysqlclient-dev
-sudo apt-get install python -y
-sudo apt-get install -y python-pip python-dev
-sudo pip install -y --upgrade pip
-sudo pip install -y --upgrade setuptools
-sudo pip install -y MySQL-python
-sudo apt-get install python3 -y
-sudo apt-get install -y python3-pip python3-dev
-sudo apt install -y python3-mysqldb
-sudo service apache2 restart
-```
 
 
 ## Problem Points
