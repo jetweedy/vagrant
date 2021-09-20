@@ -5,7 +5,7 @@ These tools and instructions provide some very basic resources for getting an Ub
 
 ## Installation of the Box Itself:
 
-Open up a cmd line:
+Open up a cmd line and CD into the 'vagrant' folder of this repository.
 
 ```
 vagrant init ubuntu/bionic64
